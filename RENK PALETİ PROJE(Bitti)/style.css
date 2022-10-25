@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    position: relative;
+width: 100%;
+height: 10vh;
+background-color: antiquewhite;
+}
+.btn{
+    width: 50%;
+    height: 10vh;
+    background-color: none;
+    cursor: pointer;
+    border: none;
+}
+.renkSeçici{
+    position: absolute;
+    left: 0px;
+    border-right: 5px solid black;
+}
+.rastgeleRenk{
+    position: absolute;
+    right: 0px;
+    
+}
+main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.yazılar{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+}
+.classclickme{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 40px;
+    
+}
+.bgtext{
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+.renkPaletYazı{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+#renkPalet{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+    height: 100px;
+}
+.gösterge{
+    font-size: 40px;
+    font-weight: 700;
+}
+.hexyazı{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.renkyazmaalanı{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+
+}
+#colorText{
+    margin-bottom: 10px;
+}
+#oluşturButon{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.hide{
+    display: none;
+}

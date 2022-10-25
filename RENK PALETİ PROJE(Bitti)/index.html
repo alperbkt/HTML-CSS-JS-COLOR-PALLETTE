@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="navbar">
+             <button class="btn renkSeçici">Renk Seçici</button>
+             <button class="btn rastgeleRenk">Rastgele Renk Oluşturucu</button>
+        </div>
+
+
+
+         <div class="hide yazılar">
+        <h1 class="bgtext">Background Color : Red</h1>
+        <button class="classclickme"> Rastgele Renk </button>
+        </div> 
+
+
+
+        <div class="renkSeçiciAlan">
+            <h1 class="renkPaletYazı">Renk Seçiniz</h1>
+            <input type="color" id="renkPalet" value="#ffffff">
+            <p class="gösterge hexyazı">HEX :</p>
+           
+            <div class="renkyazmaalanı">
+            <input type="button" id="oluşturButon" value="Oluştur" onclick="renkYaz()">
+        </div>
+
+
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
